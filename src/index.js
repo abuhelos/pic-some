@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import {BrowserRouter as Router} from "react-router-dom"
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import '../src/styles.css'
+import {ContextProvider} from "./Context"
+import 'remixicon/fonts/remixicon.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <ContextProvider>
+        <Router>
+            <App />
+        </Router>
+    </ContextProvider>
   </React.StrictMode>
 );
 
