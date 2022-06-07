@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# Pic Some
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pic Some is a fictional e-commerce website that displays a collage of photos for the user to interact with. The user can add a photo to a cart, mark it as a favorite, or both. Clicking the cart icon leads the user to the checkout page where the the items bought are displayed on the page and can be "purchased" (purchasing just clears the cart). Since the tutorial for pic-some has been created, React Router version 6 had been released so changes to the syntax were made accordingly.
+
+## What I learned
+
+- React Router
+  - Route
+  - Routes (Formerly switch)
+  - useParams
+- Context
+  - Consumer
+  - Provider
+- Custom Hooks
 
 ## Available Scripts
 
